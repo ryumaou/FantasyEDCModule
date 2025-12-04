@@ -1,0 +1,6 @@
+name: 'Fantasy EDC'
+type: module
+description: 'Provides a block that generates random fantasy everyday-carry items.'
+core_version_requirement: '^10 || ^11'
+package: 'Custom'
+version: 1.0

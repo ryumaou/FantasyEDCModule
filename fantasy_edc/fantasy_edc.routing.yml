@@ -1,0 +1,7 @@
+fantasy_edc.generator:
+  path: '/fantasy-edc'
+  defaults:
+    _form: '\Drupal\fantasy_edc\Form\FantasyEdcForm'
+    _title: 'Fantasy EDC Generator'
+  requirements:
+    _permission: 'access content'
