@@ -680,6 +680,8 @@ class FantasyEdcForm extends FormBase {
 
     $output .= '<p>Please, support the creator by visiting, ' .
       '<a href="https://www.jkhoffman.com/use-your-words/">Use Your Words, a blog by JK Hoffman</a>.</p>';
+      
+    $output .= 'Note: This site is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for us to earn fees by linking to Amazon.com and affiliated sites.';
 
     $output .= '<hr style="height:2px;width:100%;border-width:0;color:blue;background-color:black" />';
 
