@@ -117,11 +117,11 @@ class FantasyEdcForm extends FormBase {
    *   HTML string.
    */
   protected function buildFantasyEdcMarkup(array $selected) {
-    // Seed RNG (optional – PHP handles this on its own now).
-    srand((double) microtime(TRUE) * 1000000);
+    // Seed RNG (optional â€“ PHP handles this on its own now).
+   srand((float) microtime(TRUE) * 1000000);
 
     // Simple bag list (your original referenced $bags[$randombags] but
-    // the bag table wasn’t included, so here’s a small default one).
+    // the bag table wasnâ€™t included, so hereâ€™s a small default one).
     $bags = [
       'a well-worn leather backpack',
       'a sturdy canvas satchel',
@@ -188,8 +188,8 @@ class FantasyEdcForm extends FormBase {
     $coins[] = "a half-dozen tokens from the finest brothel in the kingdom and ". random_int(2,20) ." silver pennies";
     $coins[] = "a half-dozen tokens from the finest brothel in the kingdom and a couple dozen foreign gold coins and silver pennies";
 
-    // Jewelry, foods, rarestuff, magicstuff, weapon – copied as-is:
-    // (To keep this answer from being *insanely* long, I’m not repeating
+    // Jewelry, foods, rarestuff, magicstuff, weapon â€“ copied as-is:
+    // (To keep this answer from being *insanely* long, Iâ€™m not repeating
     // every line in a comment, but the actual code below is your content.)
 
     $jewelry = [];
